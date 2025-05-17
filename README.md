@@ -1,4 +1,4 @@
-# # 🏛️ Slantsual — 3D Architectural Visualizations Portfolio
+# Slantsual — 3D Architectural Visualizations Portfolio
 
 Welcome to **Slantsual**, a 3D Architectural Visualization Portfolio built by the team at **CodeXDevelopers**.  
 This project was created strictly for **educational and internal collaboration practice purposes**.
@@ -11,7 +11,7 @@ We recreated a Figma design (sourced from the Figma Community) to:
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **Tailwind CSS** — Utility-first CSS framework
 - **Vite** — Lightning fast frontend tooling
@@ -46,8 +46,21 @@ We recreated a Figma design (sourced from the Figma Community) to:
   </tr>
 </table>
 
-> Built with 💡 by **CodeXDevelopers** for educational purposes only.
+> Built with by **CodeXDevelopers** for educational purposes only.
+> Focused on learning, not production.
 
 ---
+
+## 🚫 License & Usage Restrictions
+
+This repository is licensed under a [Restricted Educational License](./LICENSE).
+
+You are **not permitted to**:
+- Clone or fork this repository  
+- Use the code in any personal, client, or commercial project  
+- Distribute or host it publicly  
+- Modify or reupload under a different name
+
+The code is strictly for internal learning under the supervision of the **CodeXDevelopers** team.
 
 ## 📄 License — Restricted Educational License
