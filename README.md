@@ -62,5 +62,3 @@ You are **not permitted to**:
 - Modify or reupload under a different name
 
 The code is strictly for internal learning under the supervision of the **CodeXDevelopers** team.
-
-## 📄 License — Restricted Educational License
