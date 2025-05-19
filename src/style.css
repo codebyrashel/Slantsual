@@ -1,7 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+/* oswald font */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+/* inter font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 @import "tailwindcss";
 
-@theme{
+@theme {
   --font-Oswald: "Oswald", sans-serif;
+  --font-Inter: "Inter", sans-serif;
+
+  /* solutions section color */
+  --color-solution-1: #908583;
+
+  /* bg color */
+  --color-bg-1: #e6e6e3;
 }
