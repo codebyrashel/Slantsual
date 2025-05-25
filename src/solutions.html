@@ -5,19 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Solutions</title>
+    <style>
+      html {
+        scroll-behavior: smooth;
+        cursor: none;
+
+        a {
+          cursor: none;
+        }
+        button {
+          cursor: none;
+        }
+      }
+    </style>
   </head>
   <body id="smooth" class="bg-bg-1">
     <main>
+      <div
+        id="cursor"
+        class="pointer-events-none fixed top-0 left-0 z-[51] h-6 w-6 scale-0 rounded-full bg-black opacity-0"
+      ></div>
       <!-- Hero Section -->
       <section id="hero">
         <div class="mx-auto max-w-7xl px-2 md:px-6 xl:px-20">
           <div
             class="font-Oswald border-solution-1 mt-16 border-b pb-12 font-bold tracking-wide uppercase"
           >
-            <h1 class="text-solution-1 pe-4 pb-2 text-5xl">
+            <h1
+              id="title__splitText-1"
+              class="text-solution-1 pe-4 pb-2 text-5xl"
+            >
               Dynamic Visualization
             </h1>
-            <h1 class="text-5xl text-black">with Tailored Solutions</h1>
+            <h1 id="title__splitText-2" class="text-5xl text-black">
+              with Tailored Solutions
+            </h1>
           </div>
           <div
             class="border-solution-1 mt-4 grid border-b text-xl font-bold uppercase md:grid-cols-3"
@@ -45,9 +67,9 @@
         ></div>
         <!-- Industry navigation links -->
         <div
-          class="mx-auto hidden max-w-7xl justify-evenly px-2 py-6 pb-4 font-bold uppercase md:flex md:px-6 xl:px-20"
+          class="mx-auto mb-4 hidden max-w-7xl justify-evenly px-2 py-6 pb-4 font-bold uppercase md:flex md:px-6 xl:px-20"
         >
-          <a class="font-Inter">architects & designers</a>
+          <a href="#designers" class="font-Inter">architects & designers</a>
           <svg
             class="text-solution-1 h-6 w-px"
             xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +85,7 @@
               stroke-width="1"
             />
           </svg>
-          <a class="font-Inter">real estate developers</a>
+          <a href="#estate" class="font-Inter">real estate developers</a>
           <svg
             class="text-solution-1 h-6 w-px"
             xmlns="http://www.w3.org/2000/svg"
@@ -102,7 +124,10 @@
       <!-- Architects & Designers Section -->
       <section id="designers">
         <div class="mx-auto max-w-7xl px-2 md:px-6 xl:px-20">
-          <div class="border-y-solution-1 border-y py-6">
+          <div
+            id="pin__1"
+            class="border-y-solution-1 bg-bg-1 outline-bg-1 sticky top-0 z-50 -mt-5 border-y py-6 outline-2"
+          >
             <h2 class="font-Oswald mb-4 text-5xl font-bold uppercase">
               For Architects & Designers
             </h2>
@@ -123,8 +148,12 @@
               />
             </div>
             <div class="md:me-4 md:mt-5 md:w-1/3">
-              <h3 class="font-Oswald mt-6 text-3xl font-bold uppercase">
-                Where Imagination Meets Precision
+              <h3
+                id="subTitle-1"
+                class="font-Oswald mt-6 text-xl font-bold uppercase md:text-2xl lg:text-3xl"
+              >
+                Where Imagination <br />
+                Meets Precision
               </h3>
               <p
                 class="font-Inter border-b-solution-1 border-b py-6 text-[14px] md:border-0 md:text-xs lg:text-lg"
@@ -208,7 +237,9 @@
       <!-- Real Estate Developers Section -->
       <section id="estate">
         <div class="mx-auto max-w-7xl px-2 md:px-6 xl:px-20">
-          <div class="border-b-solution-1 -mt-5 border-b pb-6">
+          <div
+            class="border-b-solution-1 bg-bg-1 sticky top-0 z-50 -mt-5 border-b pb-6"
+          >
             <h2 class="font-Oswald mb-4 text-5xl font-bold uppercase">
               For Real Estate Developers
             </h2>
@@ -226,10 +257,14 @@
                 loading="lazy"
               />
             </div>
-            <div class="md:ms-4 md:mt-5 md:w-1/3">
-              <h3 class="font-Oswald mt-6 text-3xl font-bold uppercase">
-                showcase Properties in Stunning Detail Before Construction
-                Begins
+            <div class="overflow-x-hidden md:ms-4 md:mt-5 md:w-1/3">
+              <h3
+                id="subTitle-2"
+                class="font-Oswald mt-6 text-xl font-bold uppercase md:text-2xl lg:text-3xl"
+              >
+                showcase Properties in <br />
+                Stunning Detail Before <br />
+                Construction Begins
               </h3>
               <p
                 class="font-Inter border-b-solution-1 border-b py-6 text-[14px] md:border-0 md:text-xs lg:text-lg"
@@ -314,7 +349,9 @@
       <!-- Manufacturing Section -->
       <section id="manufacturing">
         <div class="mx-auto max-w-7xl px-2 md:px-6 xl:px-20">
-          <div class="border-b-solution-1 -mt-5 border-b pb-6">
+          <div
+            class="border-b-solution-1 outline-bg-1 bg-bg-1 sticky top-0 z-50 -mt-5 border-b pb-6 outline-2"
+          >
             <h2 class="font-Oswald mb-4 text-5xl font-bold uppercase">
               For Manufacturing
             </h2>
@@ -335,8 +372,12 @@
               />
             </div>
             <div class="md:me-4 md:mt-5 md:w-1/3">
-              <h3 class="font-Oswald mt-6 text-3xl font-bold uppercase">
-                Bring Your Products to Life with Precise 3D Models
+              <h3
+                id="subTitle-3"
+                class="font-Oswald mt-6 text-xl font-bold uppercase md:text-2xl lg:text-3xl"
+              >
+                Bring Your Products to Life <br />
+                with Precise 3D Models
               </h3>
               <p
                 class="font-Inter border-b-solution-1 border-b py-6 text-[14px] md:border-0 md:text-xs lg:text-lg"
@@ -420,7 +461,9 @@
       <!-- Animations Section -->
       <section id="animations">
         <div class="mx-auto max-w-7xl px-2 md:px-6 xl:px-20">
-          <div class="border-b-solution-1 -mt-5 border-b pb-6">
+          <div
+            class="border-b-solution-1 bg-bg-1 sticky top-0 z-50 -mt-5 border-b pb-6"
+          >
             <h2 class="font-Oswald mb-4 text-5xl font-bold uppercase">
               For Animations
             </h2>
@@ -438,9 +481,14 @@
                 loading="lazy"
               />
             </div>
-            <div class="md:ms-4 md:mt-5 md:w-1/3">
-              <h3 class="font-Oswald mt-6 text-3xl font-bold uppercase">
-                Stunning, Cinematic Experiences That Capture Attention
+            <div class="overflow-x-hidden md:ms-4 md:mt-5 md:w-1/3">
+              <h3
+                id="subTitle-4"
+                class="font-Oswald mt-6 text-xl font-bold uppercase md:text-2xl lg:text-3xl"
+              >
+                Stunning, Cinematic <br />
+                Experiences That Capture <br />
+                Attention
               </h3>
               <p
                 class="font-Inter border-b-solution-1 border-b py-6 text-[14px] md:border-0 md:text-xs lg:text-lg"
@@ -816,6 +864,11 @@
           </div>
         </div>
       </section>
+      <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+
+      <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+      <script src="solutions.js"></script>
     </main>
   </body>
 </html>
